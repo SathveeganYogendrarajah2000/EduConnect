@@ -1,11 +1,11 @@
-import Profile from './Pages/Profile'
-
+import Login from './Pages/Login';
 function App() {
   return (
-    <>
-      <Profile />
-    </>
+    <div>
+      <Login />
+    </div>
   )
+
 }
 
 export default App
