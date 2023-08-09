@@ -1,0 +1,215 @@
+.log-in {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.log-in .div {
+  background: linear-gradient(
+    180deg,
+    rgba(123, 199, 77, 0) 1.71%,
+    rgb(123, 199, 77) 100%
+  );
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px none;
+  height: 1024px;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.log-in .overlap {
+  height: 447px;
+  left: 945px;
+  position: absolute;
+  top: 298px;
+  width: 333px;
+}
+
+.log-in .form {
+  height: 447px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 333px;
+}
+
+.log-in .text-wrapper {
+  color: #ffffff;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 170px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 425px;
+  width: 161px;
+}
+
+.log-in .group {
+  height: 136px;
+  left: 105px;
+  position: absolute;
+  top: -2px;
+  width: 91px;
+}
+
+.log-in .input-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 199px !important;
+}
+
+.log-in .overlap-group {
+  border-radius: 4px;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 285px;
+  width: 331px;
+}
+
+.log-in .img {
+  height: 22px;
+  left: 13px;
+  position: absolute;
+  top: 14px;
+  width: 22px;
+}
+
+.log-in .username-wrapper {
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 4px;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 331px;
+}
+
+.log-in .username-2 {
+  color: #ffffff;
+  font-family: "Montserrat-Light", Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  left: 55px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 12px;
+  white-space: nowrap;
+  width: 93px;
+}
+
+.log-in .sign-in {
+  left: 0 !important;
+  position: absolute !important;
+  top: 363px !important;
+}
+
+.log-in .button-instance {
+  font-size: 14px !important;
+}
+
+.log-in .overlap-2 {
+  height: 411px;
+  left: 42px;
+  position: absolute;
+  top: 347px;
+  width: 595px;
+}
+
+.log-in .group-2 {
+  height: 136px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 91px;
+}
+
+.log-in .educonnect-let-s {
+  color: transparent;
+  font-family: "Montserrat-Black", Helvetica;
+  font-size: 64px;
+  font-weight: 900;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 40px;
+  width: 567px;
+}
+
+.log-in .span {
+  color: #ffffff;
+}
+
+.log-in .text-wrapper-2 {
+  color: #1dffff;
+}
+
+.log-in .text-wrapper-3 {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.log-in .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 1028px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 797px;
+  width: 161px;
+}
+
+.log-in .text-wrapper-5 {
+  color: #ffffff;
+  font-family: "Montserrat-Black", Helvetica;
+  font-size: 32px;
+  font-weight: 900;
+  left: 1581px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 772px;
+  width: 457px;
+}
+
+.log-in .text-wrapper-6 {
+  color: #ffffff;
+  font-family: "Montserrat-Black", Helvetica;
+  font-size: 32px;
+  font-weight: 900;
+  left: 101px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 772px;
+  width: 457px;
+}
+
+.log-in .google {
+  left: 959px !important;
+  position: absolute !important;
+  top: 828px !important;
+}
+
+.log-in .signup {
+  left: 176px !important;
+  position: absolute !important;
+  top: 828px !important;
+}

@@ -1,11 +1,11 @@
-import Profile from './Pages/Profile'
+import Login from "./Pages/Login.tsx";
 
 function App() {
   return (
     <>
-      <Profile />
+      <Login />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
