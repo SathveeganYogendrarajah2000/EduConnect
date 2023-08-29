@@ -8,7 +8,7 @@ import helmet from "helmet";
 import morgan from "morgan";
 import path from "path";
 import { fileURLToPath } from "url";
-import { error } from "console";
+import { register } from "./controllers/auth.ts";
 
 /* CONFIGURATION */ // all the midleware configurations (run between different things)
 const __filename = fileURLToPath(import.meta.url);
@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(helmet());
 app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
 app.use(morgan("common"));
-app.use(bodyParser.json({ limit: "30mb", extended: true }));
+app.use(bodyParser.json({ limit: "30mb", extended: true }));      
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true })); // limit the size of the images
 app.use(cors()); // allow to connect to the frontend
 app.use("/assets", express.static(path.join(__dirname, "assets"))); // serve static files
