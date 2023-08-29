@@ -8,6 +8,7 @@ import helmet from "helmet";
 import morgan from "morgan";
 import path from "path";
 import { fileURLToPath } from "url";
+import authRoutes from "./routes/auth.js";
 import { register } from "./controllers/auth.ts";
 
 /* CONFIGURATION */ // all the midleware configurations (run between different things)
@@ -19,7 +20,7 @@ app.use(express.json());
 app.use(helmet());
 app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
 app.use(morgan("common"));
-app.use(bodyParser.json({ limit: "30mb", extended: true }));      
+app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true })); // limit the size of the images
 app.use(cors()); // allow to connect to the frontend
 app.use("/assets", express.static(path.join(__dirname, "assets"))); // serve static files
@@ -37,7 +38,10 @@ const storage = multer.diskStorage({
 const upload = multer({ storage });
 
 /* ROUTES WITH FILES */
-app.post("/auth/register", upload.single("picture"), register);   // upload picture locally public/assets folder
+app.post("/auth/register", upload.single("picture"), register); // upload picture locally public/assets folder
+
+/* ROUTES */
+app.use("/auth", authRoutes);  // help us set up all the routes keep file clean organized
 
 /* MONGOOSE SETUP */
 const PORT = process.env.PORT || 6000;
