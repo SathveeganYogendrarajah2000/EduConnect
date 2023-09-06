@@ -8,9 +8,15 @@ import helmet from "helmet";
 import morgan from "morgan";
 import path from "path";
 import { fileURLToPath } from "url";
+
 import authRoutes from "./routes/auth.js";
 import userRoutes from "./routes/users.js";
-import { register } from "./controllers/auth.ts";
+import postRoutes from "./routes/posts.js";
+
+import { register } from "./controllers/auth.js";
+import { createPost } from "./controllers/posts.js";
+
+import { verifyToken } from "./middleware/auth.js";
 
 /* CONFIGURATION */ // all the midleware configurations (run between different things)
 const __filename = fileURLToPath(import.meta.url);
@@ -40,10 +46,12 @@ const upload = multer({ storage });
 
 /* ROUTES WITH FILES */
 app.post("/auth/register", upload.single("picture"), register); // upload picture locally public/assets folder
+app.post("/posts", verifyToken, upload.single("picture"), createPost); // upload picture locally public/assets folder
 
 /* ROUTES */
 app.use("/auth", authRoutes); // help us set up all the routes keep file clean organized
 app.use("/users", userRoutes);
+app.use("/posts", postRoutes); // use the postRoutes
 
 /* MONGOOSE SETUP */
 const PORT = process.env.PORT || 6000;
