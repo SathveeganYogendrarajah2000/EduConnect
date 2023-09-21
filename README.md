@@ -7,9 +7,7 @@
 - [About](#about)
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
-
+- 
 ## About
 
 **EduConnect Learning Platform** is a dynamic initiative designed to bring together learners, educators, and enthusiasts in a collaborative educational ecosystem. It serves as a central hub for a wide range of educational activities, fostering a community of lifelong learners.
@@ -18,6 +16,10 @@
 
 - Comprehensive Workshop Listings
     ![NewsFeed](https://github.com/SathveeganYogendrarajah2000/EduConnect/blob/dev/FigmaDesign/NewsFeedDefault.jpg)
+    ![Profile](https://github.com/SathveeganYogendrarajah2000/EduConnect/blob/dev/FigmaDesign/Profile.jpg)
+- Host events
+      ![Hosting](https://github.com/SathveeganYogendrarajah2000/EduConnect/blob/dev/FigmaDesign/Hosting.jpg)
+      ![HostingForm](https://github.com/SathveeganYogendrarajah2000/EduConnect/blob/dev/FigmaDesign/HostingForm.jpg)
 - Interactive Seminar Engagement
 - Skill-Boosting Bootcamps
 - Exciting Competitions
@@ -39,5 +41,4 @@ To get started with **EduConnect Learning Platform**, follow these steps:
 3. Configure your environment variables, such as database connections and API keys, in the .env file.
 4. Run the application:
      npm start
-5. 
 
