@@ -7,7 +7,7 @@
 - [About](#about)
 - [Features](#features)
 - [Getting Started](#getting-started)
-- 
+
 ## About
 
 **EduConnect Learning Platform** is a dynamic initiative designed to bring together learners, educators, and enthusiasts in a collaborative educational ecosystem. It serves as a central hub for a wide range of educational activities, fostering a community of lifelong learners.
