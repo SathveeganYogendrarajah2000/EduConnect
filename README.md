@@ -15,9 +15,6 @@
 ## Features
 
 - Comprehensive Workshop Listings
-    <div style="overflow: hidden; width: 300px; height: 200px;">
-      <img src="https://github.com/SathveeganYogendrarajah2000/EduConnect/blob/dev/FigmaDesign/NewsFeedDefault.jpg" alt="NewsFeed" style="object-fit: cover; width: 100%; height: 100%;">
-    </div>
     ![NewsFeed](https://github.com/SathveeganYogendrarajah2000/EduConnect/blob/dev/FigmaDesign/NewsFeedDefault.jpg)
     ![Profile](https://github.com/SathveeganYogendrarajah2000/EduConnect/blob/dev/FigmaDesign/Profile.jpg)
 - Host events
